@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\HelloWorld\\HelloWorld\\HelloWorld.Wasm\\HelloWorld.Wasm.csproj": {}
+  },
+  "projects": {
+    "d:\\HelloWorld\\HelloWorld\\HelloWorld.Wasm\\HelloWorld.Wasm.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\HelloWorld\\HelloWorld\\HelloWorld.Wasm\\HelloWorld.Wasm.csproj",
+        "projectName": "HelloWorld.Wasm",
+        "projectPath": "d:\\HelloWorld\\HelloWorld\\HelloWorld.Wasm\\HelloWorld.Wasm.csproj",
+        "packagesPath": "C:\\Users\\ghuntley\\.nuget\\packages\\",
+        "outputPath": "d:\\HelloWorld\\HelloWorld\\HelloWorld.Wasm\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ghuntley\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1701"
+          ],
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Filter": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Uno.UI": {
+              "target": "Package",
+              "version": "[1.46.0-dev.2288, )"
+            },
+            "Uno.Wasm.Bootstrap": {
+              "target": "Package",
+              "version": "[1.0.0-dev.244, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
